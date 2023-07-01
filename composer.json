@@ -1,0 +1,17 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "ext-json": "*",
+        "symfony/serializer": "^6.3",
+        "symfony/property-access": "^6.3"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.3",
+        "twig/twig": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Camunda\\": "src/"
+        }
+    }
+}
